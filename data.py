@@ -4,7 +4,7 @@ import time
 # Detect object in video stream using Haarcascade Frontal Face
 face_detector= cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Start capturing video 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 time.sleep(2)
 
